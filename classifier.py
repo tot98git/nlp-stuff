@@ -4,6 +4,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 
+# I have trained a classifier that predicts the category of a given news title
+
 class Classifier:
     def readCsv(self):
         lines = pd.read_csv("data/data.csv");
