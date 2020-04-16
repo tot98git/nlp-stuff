@@ -1,2 +1,4 @@
 bin
 lib
+data/model
+__pycache__
